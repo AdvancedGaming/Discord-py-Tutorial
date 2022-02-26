@@ -1,7 +1,7 @@
 import discord
 from discord.ext import commands
 
-client = commands.Bot(command_prefix='!')
+client = commands.Bot(command_prefix='$')
 
 @client.event
 async def on_ready():
@@ -15,4 +15,4 @@ async def ping(ctx, arg=None):
     else:
         await ctx.send(f'Pong! Here is you ping: {round(client.latency * 1000)}ms')
 
-client.run('NzIwNjE2Njg0Nzc5NDcwODcx.XuI1bA.cEVGZzuj5oLnZMnQCtMm7R0EPKw')
+client.run('OTQ3MTI5MzM5MDQ3MjAyODE2.Yhow7w.lOz4ohQ6GLcXah-nO3zGxoRC5lI')
